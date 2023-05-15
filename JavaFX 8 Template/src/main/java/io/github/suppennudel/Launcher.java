@@ -40,7 +40,7 @@ public class Launcher extends Application {
 
 	private static FXMLLoader createFxmlLoader(Class<? extends Initializable> controller) {
 		String fxmlName = controller.getSimpleName().replace("Controller", "View");
-		URL location = controller.getResource(fxmlName+".fxml");
+		URL location = controller.getResource(fxmlName + ".fxml");
 		FXMLLoader fxmlLoader = new FXMLLoader(location);
 		return fxmlLoader;
 	}
@@ -66,12 +66,15 @@ public class Launcher extends Application {
 	public static Application getApp() {
 		return app;
 	}
+
 	public static Stage getStage() {
 		return stage;
 	}
+
 	public static String getName() {
 		return name;
 	}
+
 	public static String getVersion() {
 		return version;
 	}
