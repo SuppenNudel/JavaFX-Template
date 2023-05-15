@@ -1,4 +1,4 @@
-package suppennudel.config;
+package io.github.suppennudel.config;
 
 import java.util.function.Function;
 

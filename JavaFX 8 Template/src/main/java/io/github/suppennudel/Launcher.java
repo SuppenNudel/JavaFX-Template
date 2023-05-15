@@ -1,4 +1,4 @@
-package suppennudel;
+package io.github.suppennudel;
 
 import java.io.IOException;
 import java.io.InputStream;

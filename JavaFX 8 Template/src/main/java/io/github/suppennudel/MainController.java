@@ -1,13 +1,13 @@
-package suppennudel;
+package io.github.suppennudel;
 
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
+import io.github.suppennudel.config.UserConfig;
+import io.github.suppennudel.config.UserConfigKey;
+import io.github.suppennudel.config.UserConfigListKey;
 import javafx.fxml.Initializable;
-import suppennudel.config.UserConfig;
-import suppennudel.config.UserConfigKey;
-import suppennudel.config.UserConfigListKey;
 
 public class MainController implements Initializable {
 
